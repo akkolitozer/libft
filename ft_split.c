@@ -76,20 +76,3 @@ char	**ft_split(const char *str, char c)
 	strs[j] = 0;
 	return (strs);
 }
-
-int	main(int ac, char **av)
-{
-	char	**strs;
-	int	i;
-	int	count;
-
-	i = 0;
-	strs = ft_split(av[1], av[2][0]);
-	count = countwords(av[1], av[2][0]);
-	if (ac == 3)
-	{
-		while (i < count)
-			printf("%s\n", strs[i++]);
-		printf("%d\n", count);
-	}
-}
