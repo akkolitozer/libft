@@ -69,7 +69,7 @@ char	**ft_split(const char *str, char c)
 		{
 			if (!(strs[j++] = ft_fill(str, c, i)))
 				return (ft_free(strs, j - 1));
-			while(str[i] && str[i] != c)
+			while (str[i] && str[i] != c)
 				i++;
 		}
 	}
