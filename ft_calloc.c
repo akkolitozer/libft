@@ -14,3 +14,16 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, total_size);
 	return (ptr);
 }
+
+// int main(void)
+// {
+// 	size_t count = 5;
+// 	size_t size = sizeof(int);
+// 	int *arr = (int *)ft_calloc(count, size);
+// 	if (!arr)
+// 		return (1);
+// 	for (size_t i = 0; i < count; i++)
+// 		printf("%d\n", arr[i]);
+// 	free(arr);
+// 	return (0);
+// }

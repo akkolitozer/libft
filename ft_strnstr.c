@@ -22,3 +22,16 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t n)
 	}
 	return (NULL);
 }
+
+// int main(void)
+// {
+// 	const char str[] = "Whether it's rain or shine";
+// 	const char to_find[] = "rain";
+// 	size_t n = 25;
+// 	char *result = ft_strnstr(str, to_find, n);
+// 	if (result)
+// 		printf("%s\n", result);
+// 	else
+// 		printf("pas la\n");
+// 	return (0);
+// }

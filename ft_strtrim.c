@@ -20,3 +20,16 @@ char	*ft_strtrim(const char *s1, const char *set)
 	ft_strlcpy(sc, s1 + start, end - start + 1);
 	return (sc);
 }
+
+// int main(void)
+// {
+// 	const char str[] = " t   MY LOVE'S GONE    t  t ";
+// 	const char set[] = " t";
+// 	char *trimmed = ft_strtrim(str, set);
+// 	if (trimmed)
+// 	{
+// 		printf("%s\n", trimmed);
+// 		free(trimmed);
+// 	}
+// 	return (0);
+// }

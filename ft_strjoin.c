@@ -22,3 +22,16 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	sc[i + j] = 0;
 	return (sc);
 }
+
+// int main(void)
+// {
+// 	const char str1[] = "You're obsessed just let it go";
+// 	const char str2[] = "You're dead to me";
+// 	char *joined = ft_strjoin(str1, str2);
+// 	if (joined)
+// 	{
+// 		printf("%s\n", joined);
+// 		free(joined);
+// 	}
+// 	return (0);
+// }

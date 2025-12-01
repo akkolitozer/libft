@@ -22,3 +22,17 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	sub[i] = 0;
 	return (sub);
 }
+
+// int main(void)
+// {
+// 	const char str[] = "Thank you for the joy";
+// 	unsigned int start = 10;
+// 	size_t len = 7;
+// 	char *substr = ft_substr(str, start, len);
+// 	if (substr)
+// 	{
+// 		printf("%s\n", substr);
+// 		free(substr);
+// 	}
+// 	return (0);
+// }

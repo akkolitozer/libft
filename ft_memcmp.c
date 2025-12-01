@@ -17,3 +17,12 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+
+// int main(void)
+// {
+// 	const char str1[] = "coldest winter";
+// 	const char str2[] = "coldest summer";
+// 	size_t n = 7;
+// 	printf("%d\n", ft_memcmp(str1, str2, n));
+// 	return (0);
+// }

@@ -19,3 +19,13 @@ int	ft_atoi(const char *str)
 		result = result * 10 + (str[i++] - '0');
 	return (result * signe);
 }
+
+// int	main(int ac, char **av)
+// {
+// 	if (ac == 2)
+// 	{
+// 		printf("moi: %d\n", ft_atoi(av[1]));
+// 		printf("atoi: %d\n", atoi(av[1]));
+// 	}
+// 	return (0);
+// }

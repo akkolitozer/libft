@@ -8,3 +8,9 @@ int ft_isalnum(int c)
         return (1);
     return (0);
 }
+
+// int main(int ac, char **av)
+// {
+// 	if (ac == 2)
+// 		printf("%d\n", ft_isalnum(av[1][0]));
+// }

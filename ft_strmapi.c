@@ -16,3 +16,19 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 	sc[i] = '\0';
 	return (sc);
 }
+
+// int main(void)
+// {
+// 	const char str[] = "newdrop";
+// 	char func(unsigned int index, char c)
+// 	{
+// 		return (c + index);
+// 	}
+// 	char *result = ft_strmapi(str, func);
+// 	if (result)
+// 	{
+// 		printf("%s\n", result);
+// 		free(result);
+// 	}
+// 	return (0);
+// }

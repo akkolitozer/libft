@@ -76,3 +76,22 @@ char	**ft_split(const char *str, char c)
 	strs[j] = 0;
 	return (strs);
 }
+
+// int	main(void)
+// {
+// 	const char	*str = "Si demain le monde est a moi";
+// 	char		**res;
+// 	int			i;
+// 	res = ft_split(str, ' ');
+// 	if (!res)
+// 		return (1);
+// 	i = 0;
+// 	while (res[i])
+// 	{
+// 		printf("%s\n", res[i]);
+// 		free(res[i]);
+// 		i++;
+// 	}
+// 	free(res);
+// 	return (0);
+// }

@@ -13,3 +13,12 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 		d[i] = s[i];
 	return (dst);
 }
+
+// int main(void)
+// {
+// 	const char src[] = "conditionnesadecevoir";
+// 	char dst[20];
+// 	ft_memcpy(dst, src, 12);
+// 	printf("%s\n", dst);
+// 	return (0);
+// }

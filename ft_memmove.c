@@ -24,3 +24,12 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
+
+// int main(void)
+// {
+// 	const char src[] = "90210";
+// 	char dst[30];
+// 	ft_memmove(dst, src, 26);
+// 	printf("%s\n", dst);
+// 	return (0);
+// }

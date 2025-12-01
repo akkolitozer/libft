@@ -10,3 +10,12 @@ void	ft_bzero(void *s, size_t n)
 	while (i < n)
 		ptr[i++] = 0;
 }
+
+// int	main(void)
+// {
+// 	char	str[] = "khaopadkai";
+	
+// 	printf("%s\n", str);
+// 	ft_bzero(str, 5);
+// 	printf("%s\n", str);
+// }

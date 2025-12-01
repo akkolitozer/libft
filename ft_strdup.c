@@ -17,3 +17,15 @@ char	*ft_strdup(const char *s1)
 	dup[i] = '\0';
 	return (dup);
 }
+
+// int main(void)
+// {
+// 	const char str[] = "veridis quo";
+// 	char *dup = ft_strdup(str);
+// 	if (dup)
+// 	{
+// 		printf("%s\n", dup);
+// 		free(dup);
+// 	}
+// 	return (0);
+// }

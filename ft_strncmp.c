@@ -13,3 +13,12 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
+
+// int main(void)
+// {
+// 	const char str1[] = "I think i'm falling in love";
+// 	const char str2[] = "I think i'm falling in luv";
+// 	size_t n = 25;
+// 	printf("%d\n", ft_strncmp(str1, str2, n));
+// 	return (0);
+// }
